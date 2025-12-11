@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Navbar = () => {
   return (
@@ -27,51 +28,49 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
+            </li>
+            
+            <li>
+              <a>Apps</a>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
+              <a>Installation</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <div className="flex items-center">
+  <img
+    className="h-10 w-10 hidden md:block"
+    src="https://i.ibb.co.com/93G8Dm0M/logo.png"
+    alt=""
+  />
+  <h1 className="text-[#6d36e5] font-bold">HERO.IO</h1>
+</div>
+
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2 bg-base-100 w-40 z-1">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
+            <li>
+              <a>Home</a>
+            </li>
+            
+            <li>
+              <a>Apps</a>
+            </li>
+            <li>
+              <a>Installation</a>
+            </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end ">
+        <Link
+          to="https://github.com/hasanali3597"
+          className="btn bg-gradient-to-r from-[#733ce7] to-[#9f62f2] text-white"
+        >
+          <img src="https://i.ibb.co.com/fz675PBP/fi-2111432.png" alt="" />
+          Button
+        </Link>
       </div>
     </div>
   );
