@@ -1,6 +1,6 @@
 [
   {
-    "image": "app1.png",
+    "image": "https://i.ibb.co.com/5hMRnYnv/images.jpg",
     "title": "Nagad Clone",
     "companyName": "FinTech BD",
     "id": 1,
@@ -8,7 +8,7 @@
     "size": 45,
     "reviews": 1200,
     "ratingAvg": 4.2,
-    "downloads": 50000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "app2.png",
+    "image": "https://i.ibb.co.com/60HPb4Hr/bkash-logo-png-seeklogo-273684.png",
     "title": "Bkash UI",
     "companyName": "Digital Pay",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 50,
     "reviews": 800,
     "ratingAvg": 4.5,
-    "downloads": 75000,
+    "downloads": 75,
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 80 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "app3.png",
+    "image": "https://i.ibb.co.com/6JPwnL1K/download-1.jpg",
     "title": "Food Delivery",
     "companyName": "HungryHub",
     "id": 3,
@@ -44,7 +44,7 @@
     "size": 60,
     "reviews": 1500,
     "ratingAvg": 4.7,
-    "downloads": 120000,
+    "downloads": 12,
     "ratings": [
       { "name": "1 star", "count": 70 },
       { "name": "2 star", "count": 90 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "app4.png",
+    "image": "https://i.ibb.co.com/YFNfgwhQ/download-2.jpg",
     "title": "Ride Sharing",
     "companyName": "GoRide",
     "id": 4,
@@ -62,7 +62,7 @@
     "size": 55,
     "reviews": 900,
     "ratingAvg": 4.3,
-    "downloads": 95000,
+    "downloads": 95,
     "ratings": [
       { "name": "1 star", "count": 80 },
       { "name": "2 star", "count": 100 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "app5.png",
+    "image": "https://i.ibb.co.com/mr9GfqcW/download-3.jpg",
     "title": "E-commerce",
     "companyName": "ShopEasy",
     "id": 5,
@@ -80,7 +80,7 @@
     "size": 70,
     "reviews": 2000,
     "ratingAvg": 4.6,
-    "downloads": 150000,
+    "downloads": 15,
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -90,10 +90,119 @@
     ]
   },
   {
-    "image": "app6.png",
+    "image": "https://i.ibb.co.com/sJRyDVnZ/images-1.jpg",
     "title": "Learning App",
     "companyName": "EduTech",
     "id": 6,
+    "description": "Learn coding and design",
+    "size": 40,
+    "reviews": 600,
+    "ratingAvg": 4.4,
+    "downloads": 4,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5hxCsZyg/download-4.jpg",
+    "title": "Music Player",
+    "companyName": "TuneBox",
+    "id": 7,
+    "description": "Stream and download music",
+    "size": 35,
+    "reviews": 1100,
+    "ratingAvg": 4.8,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5vXS0Qn/download-5.jpg",
+    "title": "Fitness Tracker",
+    "companyName": "HealthPro",
+    "id": 8,
+    "description": "Track workouts and calories",
+    "size": 50,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/qY9fxkW6/download-6.jpg",
+    "title": "News Reader",
+    "companyName": "DailyBuzz",
+    "id": 10,
+    "description": "Read latest news articles",
+    "size": 45,
+    "reviews": 500,
+    "ratingAvg": 4.1,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4gZ1ZV4y/images-2.jpg",
+    "title": "Weather App",
+    "companyName": "SkyCast",
+    "id": 11,
+    "description": "Check weather forecasts",
+    "size": 30,
+    "reviews": 400,
+    "ratingAvg": 4.0,
+    "downloads": 25,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 120 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cnmsY90/download-7.jpg",
+    "title": "Photo Editor",
+    "companyName": "PicFix",
+    "id": 12,
+    "description": "Edit and enhance photos",
+    "size": 55,
+    "reviews": 1600,
+    "ratingAvg": 4.7,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Mk7K0gbM/download.png",
+    "title": "Podcast Player",
+    "companyName": "EduTech",
+    "id": 14,
     "description": "Learn coding and design",
     "size": 40,
     "reviews": 600,
@@ -108,21 +217,57 @@
     ]
   },
   {
-    "image": "app7.png",
-    "title": "Music Player",
-    "companyName": "TuneBox",
-    "id": 7,
-    "description": "Stream and download music",
-    "size": 35,
-    "reviews": 1100,
-    "ratingAvg": 4.8,
-    "downloads": 200000,
+    "image": "https://i.ibb.co.com/NgyNmCmZ/images-3.jpg",
+    "title": "Cooking Recipes",
+    "companyName": "HealthPro",
+    "id": 16,
+    "description": "Track workouts and calories",
+    "size": 50,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": 8,
     "ratings": [
-      { "name": "1 star", "count": 60 },
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4RzBRB7W/images.png",
+    "title": "Social Media",
+    "companyName": "DailyBuzz",
+    "id": 17,
+    "description": "Read latest news articles",
+    "size": 45,
+    "reviews": 500,
+    "ratingAvg": 4.1,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 550 }
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5hq334pr/download-8.jpg",
+    "title": "Meditation App",
+    "companyName": "PicFix",
+    "id": 18,
+    "description": "Edit and enhance photos",
+    "size": 55,
+    "reviews": 1600,
+    "ratingAvg": 4.7,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 820 }
     ]
   }
 ]

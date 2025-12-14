@@ -1,10 +1,11 @@
+import { Link } from "react-router";
 import useCards from "../Hooks/useCards";
 import AppsCard from "./AppsCard";
 
 const Home = () => {
-  const { producCard, loading, error } = useCards(); // object destructure
-
-  console.log(producCard);
+  const { producCard, loading, error } = useCards();
+  const featureCard = producCard.slice(0, 6);
+  console.log(featureCard);
 
   if (loading) {
     return <p>Loading...</p>;
@@ -28,8 +29,6 @@ const Home = () => {
         simpler, smarter, and more exciting. <br /> Our goal is to turn your
         ideas into digital experiences that truly make an impact.
       </p>
-
-      {/* Buttons */}
       <div className="flex gap-2 mx-auto justify-center mt-4">
         <button className="btn btn-outline">
           <img src="https://i.ibb.co.com/gMffjfg7/Group.png" alt="" /> Google
@@ -40,8 +39,6 @@ const Home = () => {
           Store
         </button>
       </div>
-
-      {/* Hero Image */}
       <div className="text-center mt-10">
         <img
           src="https://i.ibb.co.com/pvj1341X/hero.png"
@@ -49,8 +46,6 @@ const Home = () => {
           className="inline-block h-[476px] w-auto"
         />
       </div>
-
-      {/* Metrics Section */}
       <div className="bg-gradient-to-r from-[#5a3ae8] to-[#9d61f2] p-10 md:p-20 text-center w-full">
         <h2 className="text-3xl md:text-5xl font-bold text-white">
           Trusted by Millions, Built for You
@@ -86,24 +81,26 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Trending Apps */}
       <div className="mt-10">
         <h1 className="text-5xl font-bold">Trending Apps</h1>
         <p className="text-[#627382] mt-4">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-
-      {/* Example Card */}
-      {/* Dynamic Cards */}
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-        {producCard?.map((produc) => (
+        {featureCard?.map((produc) => (
           <AppsCard key={produc.id} produc={produc} />
         ))}
       </div>
-
-      
+      <div className="mt-7 h-10 ">
+        <Link 
+          to="/apps"
+          className=" bg-gradient-to-r from-[#733ce7] to-[#9f62f2] text-white font-semibold px-4 py-3 rounded-xl"
+        >
+          Show All
+        </Link>
+        
+      </div>
     </div>
   );
 };

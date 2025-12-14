@@ -1,7 +1,8 @@
 import Home from "../Pages/Home";
 import MainLayots from "../Layouts/MainLayots";
 import { createBrowserRouter } from "react-router";
-import Card from "../Pages/Card";
+import Apps from "../Pages/Apps";
+import Installation from "../Pages/Installation";
 
 export const router = createBrowserRouter([
   {
@@ -13,8 +14,12 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "card",
-        element: <Card />,
+        path: "/apps",
+        element: <Apps />,
+      },
+      {
+        path: "/installation",
+        element: <Installation />,
       },
     ],
   },

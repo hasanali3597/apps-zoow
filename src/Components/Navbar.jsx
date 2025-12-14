@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -28,39 +28,38 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
-            
+
             <li>
-              <a>Apps</a>
+              <NavLink to="/apps">Apps</NavLink>
             </li>
             <li>
-              <a>Installation</a>
+              <NavLink to="/installation">Installation</NavLink>
             </li>
           </ul>
         </div>
-        <div className="flex items-center">
-  <img
-    className="h-10 w-10 hidden md:block"
-    src="https://i.ibb.co.com/93G8Dm0M/logo.png"
-    alt=""
-  />
-  <h1 className="text-[#6d36e5] font-bold">HERO.IO</h1>
-</div>
-
+        <Link to="/" className="flex items-center">
+          <img
+            className="h-10 w-10 hidden md:block"
+            src="https://i.ibb.co.com/93G8Dm0M/logo.png"
+            alt=""
+          />
+          <h1 className="text-[#6d36e5] font-bold">HERO.IO</h1>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
-            </li>
-            
-            <li>
-              <a>Apps</a>
-            </li>
-            <li>
-              <a>Installation</a>
-            </li>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/apps">Apps</NavLink>
+          </li>
+          <li>
+            <NavLink to="/installation">Installation</NavLink>
+          </li>
         </ul>
       </div>
       <div className="navbar-end ">
@@ -69,7 +68,7 @@ const Navbar = () => {
           className="btn bg-gradient-to-r from-[#733ce7] to-[#9f62f2] text-white"
         >
           <img src="https://i.ibb.co.com/fz675PBP/fi-2111432.png" alt="" />
-          Button
+          Contribute
         </Link>
       </div>
     </div>
