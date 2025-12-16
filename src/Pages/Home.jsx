@@ -31,12 +31,14 @@ const Home = () => {
       </p>
       <div className="flex gap-2 mx-auto justify-center mt-4">
         <button className="btn btn-outline">
-          <img src="https://i.ibb.co.com/gMffjfg7/Group.png" alt="" /> Google
-          Play
+          <img src="https://i.ibb.co.com/gMffjfg7/Group.png" alt="" />{" "}
+          <Link to={"https://play.google.com/store/games?hl=en"}>
+            Google Play
+          </Link>
         </button>
         <button className="btn btn-outline">
-          <img src="https://i.ibb.co.com/QF2hbcK4/Group1.png" alt="" /> App
-          Store
+          <img src="https://i.ibb.co.com/QF2hbcK4/Group1.png" alt="" />{" "}
+          <Link to={"https://www.apple.com/app-store/"}>App Store</Link>
         </button>
       </div>
       <div className="text-center mt-10">
@@ -93,13 +95,12 @@ const Home = () => {
         ))}
       </div>
       <div className="mt-7 h-10 ">
-        <Link 
+        <Link
           to="/apps"
           className=" bg-gradient-to-r from-[#733ce7] to-[#9f62f2] text-white font-semibold px-4 py-3 rounded-xl"
         >
           Show All
         </Link>
-        
       </div>
     </div>
   );

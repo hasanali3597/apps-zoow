@@ -3,6 +3,7 @@ import MainLayots from "../Layouts/MainLayots";
 import { createBrowserRouter } from "react-router";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
+import AppsDetails from "../Components/AppsDetails";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "/installation",
         element: <Installation />,
+      },
+      {
+        path: "/appsdetails/:id",
+        element: <AppsDetails />,
       },
     ],
   },
