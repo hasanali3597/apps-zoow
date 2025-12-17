@@ -4,10 +4,12 @@ import { createBrowserRouter } from "react-router";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import AppsDetails from "../Components/AppsDetails";
+import ErrorPage from "../Components/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <MainLayots />,
     children: [
       {

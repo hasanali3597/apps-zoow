@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import useCards from "../Hooks/useCards";
 import AppsCard from "./AppsCard";
+import Loding from "../Components/Loding";
 
 const Home = () => {
   const { producCard, loading, error } = useCards();
@@ -8,7 +9,7 @@ const Home = () => {
   console.log(featureCard);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <Loding></Loding>;
   }
 
   if (error) {
